@@ -1,16 +1,17 @@
 @extends('layouts.default')
 
 @section('content')
-  <div class="jumbotron">
-    <h1>Hello Laravel</h1>
-    <p class="lead">
-      你现在所看到的是 <a href="https://learnku.com/courses/laravel-essential-training">Laravel 入门教程</a> 的示例项目主页。
-    </p>
-    <p>
-      一切，将从这里开始。
-    </p>
-    <p>
-      <a class="btn btn-lg btn-success" href="#" role="button">现在注册</a>
-    </p>
+  <div class="center-content bg-white custom-control-inline">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"><a class="nav-link" href="/help">帮助</a></li>
+      <li class="nav-item" ><a class="nav-link" href="#">登录</a></li>
+      <li class="nav-item" ><a class="nav-link" href="#">登录</a></li>
+      <li class="nav-item" ><a class="nav-link" href="#">登录</a></li>
+    </ul>
+    </nav>
+  </div>
+  <div class="right-content bg-white custom-control-inline">
+    2222
   </div>
 @stop
