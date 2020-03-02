@@ -34,7 +34,7 @@
       <ul class="navbar-nav justify-content-end">
         <li class="nav-item"><a class="nav-link" href="">帮助</a></li>
         @guest()
-        <li class="nav-item" ><a class="nav-link" href="{{ route('login') }}">登录</a></li>
+        <li class="nav-item" ><a class="nav-link" href="{{ route('login') }}"><button>Login</button></a></li>
         <li class="nav-item" ><a class="nav-link" href="{{ route('register') }}">注册</a></li>
         @else
           <li class="nav-item dropdown">
