@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# 此钩子调用以下参数：
+#
+# $3 - 指示文件检出还是分支检出的标志位
+
+isFileCheckout=0
+isBranchCheckout=1
+
+if [ $3 -eq $isBranchCheckout ]
+then
+    composer install
+fi
