@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# 此 git 钩子可确保在 push 之前，所有 .env 变量都位于 .env.example 中。
+
+php artisan env:check --reverse
+
+exit $?
